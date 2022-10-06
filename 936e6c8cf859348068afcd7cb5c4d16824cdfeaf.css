@@ -612,6 +612,17 @@ html.notion-front-page .notion-app-inner {
         }
     }
 /* ==================================================================== */
+/* Sync spinner.
+/* ==================================================================== */
+.sync-spinner {
+    -webkit-animation: rotate 2500ms linear infinite;
+    animation: rotate 2500ms linear infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    display: block;
+    pointer-events: none
+    }
+/* ==================================================================== */
 /* Sidebar loading skeleton shimmer
 /* ==================================================================== */
 .notion-sidebar-loading-skeleton-shimmer {
